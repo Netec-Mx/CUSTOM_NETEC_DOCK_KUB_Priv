@@ -650,4 +650,4 @@ kubectl logs contact-backend-6bfcbc9597-pjwxh -n contact-app
 ```bash
 kubectl exec -it contact-backend-affinity-7d497cf4f8-69hvx -n contact-app -- /bin/sh
 ```
-![10-6-exec-pod.png](./imges/10-6-exec-pod.png)
+![10-6-exec-pod.png](../images/10-6-exec-pod.png)
