@@ -1,206 +1,59 @@
-# Funciones que podría usar el instructor
-En este documento se muestran algunas muestras de formatos que se pueden usar en el archivo **README.me** que pueden ser de ayuda para el instructor
+<img src="images/neteclogo.png" alt="logo" width="300"/>
 
-- [Fragmentos de código](#fragmentos-de-codigo)
-- [Listas](#listas)
-- [Tablas](#tablas)
-- [Insertar imágenes](#imagenes)
-- [Alertas](#alertas)
+# Power BI Básico
 
-# Fragmentos de codigo
+## Plataforma de laboratorios
 
+Bienvenido a la **plataforma de laboratorios** del curso **Power BI Básico**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
 
-## Bloques de código
-Para agregar algún fragmento de código debemos de usar la siguiente sintáxis:
+## Lista de laboratorios
 
+Cada uno de estos laboratorios están diseñados para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
-### Python
+01. ### [Práctica 1. Crear un contenedor PostgreSQL con Docker](./Capitulo1/README.md)
+    - ⏱️ **Duración estimada**: 40 min.
 
-```python
-import datetime
+02. ### [Práctica 2. Gestión avanzada de contenedores Docker con Node.js](./Capitulo2/README.md)
+    - ⏱️ **Duración estimada**: 40 min.
 
-def str2date(sf:str):#"2020-05-08"
-    datos=sf.split('-')#['2020', '05', '08']
-                #'2020':str->2020:int, '05':str->05:int, '08':str->05:int
-    fecha=datetime.date(int(datos[0]), int(datos[1]), int(datos[2]))
-    return fecha
+03. ### [Práctica 3. Almacenamiento en Docker: Volúmenes y montajes con Node.js](./Capitulo3/README.md)
+    - ⏱️**Duración estimada**: 60 min.
 
-sf=input("ingrese la fecha YYYY-MM-DD: ")
-fecha=str2date(sf)
-print(fecha)
-print(type(fecha))
-```
+04. ### [Práctica 4. Persistencia de datos con volúmenes en Docker](./Capitulo4/README.md)
+    - ⏱️**Duración estimada**: 45 min.
 
-### Java
-```java
-public void cleanup() {
-        try {
-            if (connection != null)
-                connection.close();
-        } catch (Exception e) {
-            System.out.println("Excepción capturada: ");
-            e.printStackTrace();
-        }
-    }
-```
+05. ### [Práctica 5. Conectividad y redes en Docker con NGINX](./Capitulo5/README.md)
+    - ⏱️**Duración estimada**: 50 min.
 
+06. ### [Práctica 6. Orquestación de contenedores con Docker Compose](./Capitulo6/README.md)
+    - ⏱️**Duración estimada**: 90 min.
 
-### shell
-```shell
-#!/bin/sh
+07. ### [Práctica 7. Contenerización y despliegue en Kubernetes de una aplicación Node.js](./Capitulo7/README.md)
+    - ⏱️**Duración estimada**: 60 min.
 
-CONTADOR=0
-until [ $CONTADOR – ge 3]]; do
-    echo El contador es $CONTADOR
-    CONTADOR=$(($CONTADOR+1))
-done
-```
+08. ### [Práctica 8. Gestión de namespaces y despliegue de recursos en Kubernetes](./Capitulo8/README.md)
+    - ⏱️**Duración estimada**: 50 min.
 
-### Ruby
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+09. ### [Práctica 9. Trabajo con volúmenes emptyDir en Kubernetes](./Capitulo9/README.md)
+    - ⏱️**Duración estimada**: 50 min.
 
-### HTML
+10. ### [Práctica 10. Trabajo con volúmenes emptyDir en Kubernetes](./Capitulo10/README.md)
+    - ⏱️**Duración estimada**: 70 min.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+11. ### [Práctica 11. Creación de un servicio ClusterIP en Kubernetes](./Capitulo11/README.md)
+    - ⏱️**Duración estimada**: 80 min.
 
-```
+12. ### [Práctica 12. Despliegue de aplicación Node.js con Ingress en Kubernetes](./Capitulo12/README.md)
+    - ⏱️**Duración estimada**: 120 min.
 
-### Javascript
+13. ### [Práctica 13. Implementando k8s](./Capitulo14/README.md)
+    - ⏱️**Duración estimada**: 150 min.
 
-```javascript
-var database=db.getSiblingDB("database")
-var collection=database.getCollection("people")
+---
+## 📬 **Contacto y más información**
 
-var data=[
-    {name:"edgar"},
-    {name:"juan"},
-    {name:"alicia"}
-]
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). También puedes encontrar más recursos en nuestra [página](https://netec.com).
 
-data.forEach(t=>{
-    console.log(t)
-    var result=collection.insertOne(t)
-    console.log(result)
-})
+---
 
-```
-# Listas
-
-## Lista simple
-- elemento 1
-- elemento 2
-- elemento 3
-
-## Lista números
-1. elemento 1
-2. elemento 2
-3. elemento 3
-
-## Lista anidada
-- Elemento principal
-    - Elemento interno 1
-    - Elemento interno 2
-        - elemento 
-        - elemento
-    - elemento interno 3
-
-## Lista de tareas
-- [ ] tarea 1
-- [x] tarea 2
-- [ ] tarea 3 
-- [ ] \(Optional) tarea opcional 
-
-# Tablas
-
-## Tabla simple
-
-| título columna 1  | título columna 2|
-| ------------- | ------------- |
-| contenido 1  | contenido 2  |
-| contenido 3  | contenido 4  |
-
-
-## Tabla con formato en las columnas
-
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
-
-
-## Alinear contenido en tabla
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-# Imagenes
-
-Para insertar una imágen se usa la siguiente sintáxis:
-
-```
-![descripción de la imagen](url imagen)
-```
-El url de la imágen puede ser de la siguiente forma:
-
-- Si la imágen esta dentro de la misma rama se usa la siguiente sintaxis:
-    ```
-     ![description](/assets/images/imagen1.png)
-    ```
-    - Donde:
-        - la ruta */assets/images* esta dentro de la rama donde se encuentra el archivo **README.md**
-
-- Si la imágen esta en otra rama se usa la siguiente sintaxis:
-    ```
-    ![description](/../name_branch/assets/images/imagen1.png)
-    ```
-    - Donde: 
-        - La ruta */../name_branch/assets/images/* esta dentro de el mismo repositorio pero es una rama diferente. 
-
-- Si la imagén esta en internet se usa la siguiente sintaxis: 
-    ``` 
-     ![description](https://url/imagen.png)
-    ```
-- Si se quiere controlar el tamaño de la imágen se debe usar html, de la siguiente forma:
-    ``` html
-    <img src="url image" width="200" height="200">
-     
-    ```
-    - Donde: 
-        - En el html se pueden editar los siguiente elementos: 
-            - **url image**:  La ruta de la imágen
-            - **width**: Ancho de la imágen en pixeles
-            - **height**: Alto de la imágen en pixeles
-
-
-# Alertas
-
-> [!NOTE]
-> útil para agregar alguna nota extra
-
-> [!TIP]
-> útil para dar algún tip
-
-> [!IMPORTANT]
-> útil para algún recordatorio
-
-> [!WARNING]
-> útil para alertar a los alumnos
-
-> [!CAUTION]
-> útil para sugerencias y precauciones.
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
