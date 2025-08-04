@@ -9,7 +9,7 @@ Al finalizar la práctica, serás capaz de:
 
 ---
 
-**[⬅️ Atrás](https://netec-mx.github.io/DOCK_KUB/Capitulo9/)** | **[Lista General](https://netec-mx.github.io/DOCK_KUB/)** | **[Siguiente ➡️](https://netec-mx.github.io/DOCK_KUB/Capitulo11/)**
+**[⬅️ Atrás](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/Capitulo9/)** | **[Lista general](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/)** | **[Siguiente ➡️](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/Capitulo11/)**
 
 ---
 
