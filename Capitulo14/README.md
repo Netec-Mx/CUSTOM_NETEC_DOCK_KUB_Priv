@@ -7,6 +7,12 @@ Al finalizar la práctica, serás capaz de:
 ## Duración aproximada: 
 - 150 minutos.
 
+---
+
+**[⬅️ Atrás](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/Capitulo12/)** | **[Lista general](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/)**
+
+---
+
 ## Instrucciones:
 ### Tarea 1. Crear artefactos de la aplicación
 
