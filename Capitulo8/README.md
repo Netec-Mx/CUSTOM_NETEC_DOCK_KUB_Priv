@@ -11,7 +11,7 @@ Al finalizar la práctica, serás capaz de:
 
 ---
 
-**[⬅️ Atrás](https://netec-mx.github.io/DOCK_KUB/Capitulo7/)** | **[Lista General](https://netec-mx.github.io/DOCK_KUB/)** | **[Siguiente ➡️](https://netec-mx.github.io/DOCK_KUB/Capitulo9/)**
+**[⬅️ Atrás](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/Capitulo7/)** | **[Lista general](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/)** | **[Siguiente ➡️](https://netec-mx.github.io/CUSTOM_NETEC_DOCK_KUB_Priv/Capitulo9/)**
 
 ---
 
